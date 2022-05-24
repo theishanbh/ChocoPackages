@@ -16,7 +16,7 @@
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://github.com/automation-co/borzoi/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/automation-co/borzoi</projectSourceUrl>
+    <projectSourceUrl>https://github.com/theishanbh/ChocoPackages/tree/main/borzoi</projectSourceUrl>
     <docsUrl>https://github.com/automation-co/borzoi/blob/main/README.md</docsUrl>
     <mailingListUrl>https://discord.gg/fS6aWjx4RF</mailingListUrl>
     <!--<bugTrackerUrl></bugTrackerUrl>-->
