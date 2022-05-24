@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>borzoi</id>
+    <version>0.7.0</version>
+    <!-- <packageSourceUrl>borzoi.nuspec</packageSourceUrl> -->
+    <owners>The Automation Company</owners>
+
+    <title>borzoi (Install)</title>
+    <authors>Aarush Goyal, Ishan Bhardwaj</authors>
+    <projectUrl>https://github.com/automation-co/borzoi</projectUrl>
+    <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
+    <!-- Here is an example using Githack -->
+    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/borzoi.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- If there is a license Url available, it is required for the community feed -->
+    <licenseUrl>https://github.com/automation-co/borzoi/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/automation-co/borzoi</projectSourceUrl>
+    <docsUrl>https://github.com/automation-co/borzoi/blob/main/README.md</docsUrl>
+    <mailingListUrl>https://discord.gg/fS6aWjx4RF</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>borzoi git github multirepo</tags>
+    <summary>Polyrepos are as cool as monorepos, if managed well.</summary>
+    <description>Borzoi helps you to easily replicate and share file structure. </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

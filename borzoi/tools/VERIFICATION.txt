@@ -1,0 +1,18 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The .exe have been downloaded from their official download link listed on <https://github.com/automation-co/borzoi/releases/>
+and can be verified like this:
+
+1. Download the ZIP file of the .exe at:
+  64-Bit: <https://github.com/automation-co/borzoi/releases/download/v0.7.0/borzoi_0.7.0_Windows_x86_64.tar.gz>
+2. You can use one of the following methods to obtain the checksum
+  - Use powershell function 'Get-Filehash'
+  - Use chocolatey utility 'checksum.exe'
+
+  checksum type:
+  checksum64: 7757f264c6880768ca63c9fdbdfb423ace2bf9ef4ea02310319e79d03494a4d9
+
+File 'LICENSE.txt' is obtained from <https://github.com/automation-co/borzoi/blob/main/LICENSE>
